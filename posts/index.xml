@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Xiaochen Wei</title>
-    <link>http://www.example.com/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Xiaochen Wei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 25 Sep 2020 12:14:34 -0700</lastBuildDate>
     
-	<atom:link href="http://www.example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>最近期权交易的一点心得</title>
-      <link>http://www.example.com/posts/sell-put-options/</link>
+      <link>/posts/sell-put-options/</link>
       <pubDate>Fri, 25 Sep 2020 12:14:34 -0700</pubDate>
       
-      <guid>http://www.example.com/posts/sell-put-options/</guid>
+      <guid>/posts/sell-put-options/</guid>
       <description> 最近研究了一下关于期权的一些知识，大部分期权的交易都风险性很高，有两种风险相对较低的方式比较适合我自己的情况：
  Sell covered call Sell cash-backed put  Sell Covered call Sell covered call里面covered相对应的是naked.
 通过Sell call其实我们赌的是在未来某个时间，股票的价格不会超过strike price. 如果没有超过strike price的话期权expire作为卖家我们可以获得preminum.如果超过的话买期权的人可以通过行权以strike price向我们购买股票。在这里就可以区分covered/naked:
@@ -33,10 +33,10 @@ Sell cash-backed put sell put的含义是你愿意通过收取一定的preminum�
     
     <item>
       <title>Hello World</title>
-      <link>http://www.example.com/posts/my-first-post/</link>
+      <link>/posts/my-first-post/</link>
       <pubDate>Wed, 23 Sep 2020 20:51:08 -0700</pubDate>
       
-      <guid>http://www.example.com/posts/my-first-post/</guid>
+      <guid>/posts/my-first-post/</guid>
       <description>Hello World!</description>
     </item>
     
