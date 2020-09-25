@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Xiaochen Wei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2020 11:38:45 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2020 12:14:34 -0700</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>最近期权交易的一点心得</title>
       <link>/posts/sell-put-options/</link>
-      <pubDate>Fri, 25 Sep 2020 11:38:45 -0700</pubDate>
+      <pubDate>Fri, 25 Sep 2020 12:14:34 -0700</pubDate>
       
       <guid>/posts/sell-put-options/</guid>
-      <description>最近研究了一下关于期权的一些知识，大部分期权的交易都风险性很高，有两种风险相对较低的方式比较适合我自己的情况：
+      <description> 最近研究了一下关于期权的一些知识，大部分期权的交易都风险性很高，有两种风险相对较低的方式比较适合我自己的情况：
  Sell covered call Sell cash-backed put  Sell Covered call Sell covered call里面covered相对应的是naked.
 通过Sell call其实我们赌的是在未来某个时间，股票的价格不会超过strike price. 如果没有超过strike price的话期权expire作为卖家我们可以获得preminum.如果超过的话买期权的人可以通过行权以strike price向我们购买股票。在这里就可以区分covered/naked:
  如果你本身持有该股票超过100股，那么你不需要去购买股票而可以把自己本身持有的股票给对方。这种结果不会导致你破产，最差的结果是你手中的股票没了，同时赚了preminum和股票升值到strike price的部分。这种我们叫做covered call. 如果你本身持有股票不足，需要从股市购买股票，这种时候如果股票价格起飞，很可能造成重大的经济损失，比如strike price为300的特斯拉，如果对方行权的时候价格起飞到了1000，你还得捏着鼻子花1000/股的价格买进，以300/股的价格卖给对方。而且期权交易每个contract是100股，很可能就破产了。这种情况我们叫做naked call,很明显可以看出sell naked call的风险很大，不建议尝试。  Sell covered call 更多的时候被用来对冲，比如你觉得手里持有的股票近期可能会下跌，但是又舍不得卖(长期投资，或者税务原因)，可以通过sell covered call收取一些preminum来对冲一些损失。跟什么都不做仅仅死抱着股票比，这样做的好处是可以赚点钱，缺点是如果这个股票跟你的预测相反起飞了，就要把股票卖出，或者选择Buy to close把你卖出的这个期权再买回来，也不失为一个好方法。
@@ -37,7 +37,7 @@ Sell cash-backed put sell put的含义是你愿意通过收取一定的preminum�
       <pubDate>Wed, 23 Sep 2020 20:51:08 -0700</pubDate>
       
       <guid>/posts/my-first-post/</guid>
-      <description>Hello World! </description>
+      <description>Hello World!</description>
     </item>
     
   </channel>
