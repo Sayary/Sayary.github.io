@@ -6,10 +6,28 @@
     <description>Recent content on Alfred</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2020 12:14:34 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2020 15:27:00 -0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>期权，理财投资以及RSS订阅</title>
+      <link>/posts/2020-10-good-findings/</link>
+      <pubDate>Fri, 02 Oct 2020 15:27:00 -0700</pubDate>
+      
+      <guid>/posts/2020-10-good-findings/</guid>
+      <description> 最近在因为折腾博客，顺便看了几个比较有意思的博客:
+美股学习笔记系列
+讲的不是很深可以作为入门接触一些知识点用一下
+宇宙的心弦
+作者是北美信用卡指南的站长吧，写的一些关于投资理财的很不错，特别是《一个简单但有效的投资策略：40% UPRO + 60% TMF》这篇，写的非常好。顺藤摸瓜找到了北美信用卡指南最近新开的论坛。
+找到的多了就想把这些博主都订阅起来，于是又重拾RSS，机缘巧合发现了一个很好的工具: RSSHub。
+这个想法之前自己想过很久了，现在突然发现有人已经做出来了，不禁感慨人类的需求果然都是相同的。
+有位开发者基于RSSHub的理念做了一个BlogHub来汇总一些比较优秀的中文博主博客，我用RSSHub反手就是一个关注，算不算套娃？
+最后附上几个我之前一直订阅的RSS：
+ Techmeme 硅谷很有名的一个科技信息网站 Jake Wharton 做Android的应该很难不知道他吧？最近几年从Square跳到Google，看他的Blog应该是在做R8以及编译器上的一些性能优化  </description>
+    </item>
     
     <item>
       <title>最近期权交易的一点心得</title>
