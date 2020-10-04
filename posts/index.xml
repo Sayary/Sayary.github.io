@@ -17,16 +17,7 @@
       <pubDate>Fri, 02 Oct 2020 15:27:00 -0700</pubDate>
       
       <guid>/posts/2020-10-good-findings/</guid>
-      <description> 最近在因为折腾博客，顺便看了几个比较有意思的博客:
-美股学习笔记系列
-讲的不是很深可以作为入门接触一些知识点用一下
-宇宙的心弦
-作者是北美信用卡指南的站长吧，写的一些关于投资理财的很不错，特别是《一个简单但有效的投资策略：40% UPRO + 60% TMF》这篇，写的非常好。顺藤摸瓜找到了北美信用卡指南最近新开的论坛。
-找到的多了就想把这些博主都订阅起来，于是又重拾RSS，机缘巧合发现了一个很好的工具: RSSHub。
-这个想法之前自己想过很久了，现在突然发现有人已经做出来了，不禁感慨人类的需求果然都是相同的。
-有位开发者基于RSSHub的理念做了一个BlogHub来汇总一些比较优秀的中文博主博客，我用RSSHub反手就是一个关注，算不算套娃？
-最后附上几个我之前一直订阅的RSS：
- Techmeme 硅谷很有名的一个科技信息网站 Jake Wharton 做Android的应该很难不知道他吧？最近几年从Square跳到Google，看他的Blog应该是在做R8以及编译器上的一些性能优化  </description>
+      <description>&lt;p&gt;最近在因为折腾博客，顺便看了几个比较有意思的博客:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -35,27 +26,11 @@
       <pubDate>Fri, 25 Sep 2020 12:14:34 -0700</pubDate>
       
       <guid>/posts/sell-put-options/</guid>
-      <description> 最近研究了一下关于期权的一些知识，大部分期权的交易都风险性很高，有两种风险相对较低的方式比较适合我自己的情况：
- Sell covered call Sell cash-backed put  Sell Covered call Sell covered call里面covered相对应的是naked.
-通过Sell call其实我们赌的是在未来某个时间，股票的价格不会超过strike price. 如果没有超过strike price的话期权expire作为卖家我们可以获得preminum.如果超过的话买期权的人可以通过行权以strike price向我们购买股票。在这里就可以区分covered/naked:
- 如果你本身持有该股票超过100股，那么你不需要去购买股票而可以把自己本身持有的股票给对方。这种结果不会导致你破产，最差的结果是你手中的股票没了，同时赚了preminum和股票升值到strike price的部分。这种我们叫做covered call. 如果你本身持有股票不足，需要从股市购买股票，这种时候如果股票价格起飞，很可能造成重大的经济损失，比如strike price为300的特斯拉，如果对方行权的时候价格起飞到了1000，你还得捏着鼻子花1000/股的价格买进，以300/股的价格卖给对方。而且期权交易每个contract是100股，很可能就破产了。这种情况我们叫做naked call,很明显可以看出sell naked call的风险很大，不建议尝试。  Sell covered call 更多的时候被用来对冲，比如你觉得手里持有的股票近期可能会下跌，但是又舍不得卖(长期投资，或者税务原因)，可以通过sell covered call收取一些preminum来对冲一些损失。跟什么都不做仅仅死抱着股票比，这样做的好处是可以赚点钱，缺点是如果这个股票跟你的预测相反起飞了，就要把股票卖出，或者选择Buy to close把你卖出的这个期权再买回来，也不失为一个好方法。
-我最近covered call做得比较少，因为手里的股票都不想卖，也就不为这点钱承担强行卖出的风险了。
-Sell cash-backed put sell put的含义是你愿意通过收取一定的preminum在未来的某个时间，以比现在低的某个strike price买这只股票。
-这种策略有两个前提：
- 做sell put的股票是你愿意持有的，如果你本身不想以strike price加仓这只股票，那你就不应该这么做。 Cash-backed.你的账户上要用足够的现金来确保有钱来买下股票。  与传统的挂limit单相比，sell put跟sell call一样同样可以收preminum。在上面说的两个前提下，最差的结果就是你买了本来就想买的股票，如果价格没有低下来也可以有一点盈利。我感觉这种策略比较适合半仓的选手，如果股价过高或者起飞也不至于遗憾，如果低了的话反而可以在较低的价格建仓。
-同样的策略有人选择卖weekly的put有人选择monthly，各有利弊。我个人倾向于在自己比较熟悉的几只股票上做weekly put,找准比较好的支撑位和心理价位其实风险不高。
-最近美股的几大巨头都已经跌了20%左右，我想在MSFT、FB两只上加仓，因此在最高股价80%左右sell put，同时做了一些NIO 17左右的sell put。这几个价位都是我心里比较合适的入场点。盈利还是比较稳定的，每周有个小2000刀吧。
-最后总结几点，sell put也有一些问题：
- 短期盈利税率感人，我的effective tax rate大概在35%左右，利润被削弱了很多，考虑把这些转到Roth IRA上做了。 这种方式不太适合股价过高的股票，因为一个contract就是100股，所以像加仓GOOGLE这种我就只能老老实实挂个limit慢慢等。 同时港股似乎也无法操作，比如我想加仓腾讯TCEHY或者美团 MPNGF，也只能挂单。 做weekly的话我不确定每周都能找到收益比较合适的标的，毕竟我自己想买的股票不太多。一旦这几只涨起来离我的目标价位过高的话，如果一味的为了追求回报率可能sell put的strike price设的过高不符合自己的原则；坚持自己的买入价格的话收益可能过低，总之还是要走一步算一步，不能拿单周收益率乘以52周来简单的计算自己的年化。  </description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>/posts/my-first-post/</link>
-      <pubDate>Wed, 23 Sep 2020 20:51:08 -0700</pubDate>
-      
-      <guid>/posts/my-first-post/</guid>
-      <description>Hello World!</description>
+      <description>&lt;p&gt;最近研究了一下关于期权的一些知识，大部分期权的交易都风险性很高，有两种风险相对较低的方式比较适合我自己的情况：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Sell covered call&lt;/li&gt;
+&lt;li&gt;Sell cash-backed put&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
   </channel>
