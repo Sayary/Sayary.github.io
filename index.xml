@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alfred</title>
-    <link>/</link>
+    <link>https://https://sayary.github.io//</link>
     <description>Recent content on Alfred</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 02 Oct 2020 15:27:00 -0700</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://https://sayary.github.io//index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>期权，理财投资以及RSS订阅</title>
-      <link>/posts/2020-10-good-findings/</link>
+      <link>https://https://sayary.github.io//posts/2020-10-good-findings/</link>
       <pubDate>Fri, 02 Oct 2020 15:27:00 -0700</pubDate>
       
-      <guid>/posts/2020-10-good-findings/</guid>
+      <guid>https://https://sayary.github.io//posts/2020-10-good-findings/</guid>
       <description>&lt;p&gt;最近在因为折腾博客，顺便看了几个比较有意思的博客:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>最近期权交易的一点心得</title>
-      <link>/posts/sell-put-options/</link>
+      <link>https://https://sayary.github.io//posts/sell-put-options/</link>
       <pubDate>Fri, 25 Sep 2020 12:14:34 -0700</pubDate>
       
-      <guid>/posts/sell-put-options/</guid>
+      <guid>https://https://sayary.github.io//posts/sell-put-options/</guid>
       <description>&lt;p&gt;最近研究了一下关于期权的一些知识，大部分期权的交易都风险性很高，有两种风险相对较低的方式比较适合我自己的情况：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Sell covered call&lt;/li&gt;
@@ -34,20 +34,38 @@
     </item>
     
     <item>
-      <title>Chicago, US</title>
-      <link>/photos/chicago-us/</link>
-      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <title>2019-12-01, LA Zoo</title>
+      <link>https://https://sayary.github.io//photos/la-zoo-2019-12-01/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/photos/chicago-us/</guid>
-      <description>Chicago, officially the City of Chicago, is the most populous city in the U.S. state of Illinois, and the third-most-populous city in the United States. With an estimated population of 2,705,994 (2018), it is also the most populous city in the Midwestern United States. Chicago is the county seat of Cook County, the second-most-populous county in the US, with a small portion of the northwest side of the city extending into DuPage County near O&amp;rsquo;Hare Airport.</description>
+      <guid>https://https://sayary.github.io//photos/la-zoo-2019-12-01/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019-04-20, Seattle</title>
+      <link>https://https://sayary.github.io//photos/seattle-2019-04-20/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://https://sayary.github.io//photos/seattle-2019-04-20/</guid>
+      <description>First time flight travel with my 18-month old daughter.</description>
+    </item>
+    
+    <item>
+      <title>Alaska, US</title>
+      <link>https://https://sayary.github.io//photos/alaska/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://https://sayary.github.io//photos/alaska/</guid>
+      <description>All the way to the north.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://https://sayary.github.io//about/</link>
       <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://https://sayary.github.io//about/</guid>
       <description>Software engineer
 China -&amp;gt; New York -&amp;gt; LA
 2 cats</description>

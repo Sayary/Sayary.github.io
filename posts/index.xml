@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Alfred</title>
-    <link>/posts/</link>
+    <link>https://https://sayary.github.io//posts/</link>
     <description>Recent content in Posts on Alfred</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 02 Oct 2020 15:27:00 -0700</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://https://sayary.github.io//posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>期权，理财投资以及RSS订阅</title>
-      <link>/posts/2020-10-good-findings/</link>
+      <link>https://https://sayary.github.io//posts/2020-10-good-findings/</link>
       <pubDate>Fri, 02 Oct 2020 15:27:00 -0700</pubDate>
       
-      <guid>/posts/2020-10-good-findings/</guid>
+      <guid>https://https://sayary.github.io//posts/2020-10-good-findings/</guid>
       <description>&lt;p&gt;最近在因为折腾博客，顺便看了几个比较有意思的博客:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>最近期权交易的一点心得</title>
-      <link>/posts/sell-put-options/</link>
+      <link>https://https://sayary.github.io//posts/sell-put-options/</link>
       <pubDate>Fri, 25 Sep 2020 12:14:34 -0700</pubDate>
       
-      <guid>/posts/sell-put-options/</guid>
+      <guid>https://https://sayary.github.io//posts/sell-put-options/</guid>
       <description>&lt;p&gt;最近研究了一下关于期权的一些知识，大部分期权的交易都风险性很高，有两种风险相对较低的方式比较适合我自己的情况：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Sell covered call&lt;/li&gt;
