@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photos on Alfred</title>
-    <link>https://https://sayary.github.io//photos/</link>
+    <link>https://sayary.github.io/photos/</link>
     <description>Recent content in Photos on Alfred</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://https://sayary.github.io//photos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sayary.github.io/photos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2019-12-01, LA Zoo</title>
-      <link>https://https://sayary.github.io//photos/la-zoo-2019-12-01/</link>
+      <link>https://sayary.github.io/photos/la-zoo-2019-12-01/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://https://sayary.github.io//photos/la-zoo-2019-12-01/</guid>
+      <guid>https://sayary.github.io/photos/la-zoo-2019-12-01/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2019-04-20, Seattle</title>
-      <link>https://https://sayary.github.io//photos/seattle-2019-04-20/</link>
+      <link>https://sayary.github.io/photos/seattle-2019-04-20/</link>
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://https://sayary.github.io//photos/seattle-2019-04-20/</guid>
+      <guid>https://sayary.github.io/photos/seattle-2019-04-20/</guid>
       <description>First time flight travel with my 18-month old daughter.</description>
     </item>
     
     <item>
       <title>Alaska, US</title>
-      <link>https://https://sayary.github.io//photos/alaska/</link>
+      <link>https://sayary.github.io/photos/alaska/</link>
       <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://https://sayary.github.io//photos/alaska/</guid>
+      <guid>https://sayary.github.io/photos/alaska/</guid>
       <description>All the way to the north.</description>
     </item>
     
