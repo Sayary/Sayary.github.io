@@ -34,15 +34,6 @@
     </item>
     
     <item>
-      <title>2019-12-01, LA Zoo</title>
-      <link>https://sayary.github.io/photos/la-zoo-2019-12-01/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sayary.github.io/photos/la-zoo-2019-12-01/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>2019-04-20, Seattle</title>
       <link>https://sayary.github.io/photos/seattle-2019-04-20/</link>
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
@@ -69,6 +60,15 @@
       <description>Software engineer
 China -&amp;gt; New York -&amp;gt; LA
 2 cats</description>
+    </item>
+    
+    <item>
+      <title>2016-5-15, New York</title>
+      <link>https://sayary.github.io/photos/new-york-2016-5-15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayary.github.io/photos/new-york-2016-5-15/</guid>
+      <description></description>
     </item>
     
   </channel>
