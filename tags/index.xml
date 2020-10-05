@@ -6,9 +6,19 @@
     <description>Recent content in Tags on Alfred</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Fri, 02 Oct 2020 15:27:00 -0700</lastBuildDate>
     
 	<atom:link href="https://sayary.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>options</title>
+      <link>https://sayary.github.io/tags/options/</link>
+      <pubDate>Fri, 02 Oct 2020 15:27:00 -0700</pubDate>
+      
+      <guid>https://sayary.github.io/tags/options/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
