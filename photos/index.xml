@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Photos on Eggwhite&amp;Yolk</title>
+    <title>📷 Photos on Eggwhite&amp;Yolk</title>
     <link>https://sayary.github.io/photos/</link>
-    <description>Recent content in Photos on Eggwhite&amp;Yolk</description>
+    <description>Recent content in 📷 Photos on Eggwhite&amp;Yolk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sayary.github.io/photos/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Manhattan Beach, Los Angeles</title>
+      <link>https://sayary.github.io/photos/manhattan-beach-2019-12-25/</link>
+      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayary.github.io/photos/manhattan-beach-2019-12-25/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>2019-04-20, Seattle</title>

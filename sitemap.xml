@@ -4,15 +4,43 @@
     
         
         <url>
-            <loc>https://sayary.github.io/about/</loc>
-            <lastmod>2020-10-04T21:05:33+05:30</lastmod>
+            <loc>https://sayary.github.io/posts/2020-is-mobile-dev-dead/</loc>
+            <lastmod>2020-10-06T12:27:00-07:00</lastmod>
         </url>
         
     
         
         <url>
             <loc>https://sayary.github.io/</loc>
-            <lastmod>2020-10-02T15:27:00-07:00</lastmod>
+            <lastmod>2020-10-06T12:27:00-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://sayary.github.io/posts/</loc>
+            <lastmod>2020-10-06T12:27:00-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://sayary.github.io/tags/</loc>
+            <lastmod>2020-10-06T12:27:00-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://sayary.github.io/tags/tech/</loc>
+            <lastmod>2020-10-06T12:27:00-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://sayary.github.io/about/</loc>
+            <lastmod>2020-10-04T21:05:33+05:30</lastmod>
         </url>
         
     
@@ -32,21 +60,7 @@
     
         
         <url>
-            <loc>https://sayary.github.io/posts/</loc>
-            <lastmod>2020-10-02T15:27:00-07:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://sayary.github.io/tags/</loc>
-            <lastmod>2020-10-02T15:27:00-07:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://sayary.github.io/posts/2020-10-good-findings/</loc>
+            <loc>https://sayary.github.io/posts/2020-10-02-good-findings/</loc>
             <lastmod>2020-10-02T15:27:00-07:00</lastmod>
         </url>
         
@@ -60,14 +74,21 @@
     
         
         <url>
-            <loc>https://sayary.github.io/photos/seattle-2019-04-20/</loc>
-            <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+            <loc>https://sayary.github.io/photos/manhattan-beach-2019-12-25/</loc>
+            <lastmod>2019-12-25T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
             <loc>https://sayary.github.io/photos/</loc>
+            <lastmod>2019-12-25T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://sayary.github.io/photos/seattle-2019-04-20/</loc>
             <lastmod>2019-04-20T00:00:00+00:00</lastmod>
         </url>
         

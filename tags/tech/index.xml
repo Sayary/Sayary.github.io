@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on Eggwhite&amp;Yolk</title>
+    <link>https://sayary.github.io/tags/tech/</link>
+    <description>Recent content in tech on Eggwhite&amp;Yolk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Oct 2020 12:27:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://sayary.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2020年, Mobile Dev还有出路吗？</title>
+      <link>https://sayary.github.io/posts/2020-is-mobile-dev-dead/</link>
+      <pubDate>Tue, 06 Oct 2020 12:27:00 -0700</pubDate>
+      
+      <guid>https://sayary.github.io/posts/2020-is-mobile-dev-dead/</guid>
+      <description>&lt;p&gt;最近看到脉脉上国内的同行们在大力劝退移动端。作为一名在国外移动端比较强的大(中？)厂工作了接近5年的Senior Engineer, 我也谈谈自己的看法。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

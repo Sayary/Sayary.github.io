@@ -6,10 +6,19 @@
     <description>Recent content on Eggwhite&amp;Yolk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2020 15:27:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2020 12:27:00 -0700</lastBuildDate>
     
 	<atom:link href="https://sayary.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020年, Mobile Dev还有出路吗？</title>
+      <link>https://sayary.github.io/posts/2020-is-mobile-dev-dead/</link>
+      <pubDate>Tue, 06 Oct 2020 12:27:00 -0700</pubDate>
+      
+      <guid>https://sayary.github.io/posts/2020-is-mobile-dev-dead/</guid>
+      <description>&lt;p&gt;最近看到脉脉上国内的同行们在大力劝退移动端。作为一名在国外移动端比较强的大(中？)厂工作了接近5年的Senior Engineer, 我也谈谈自己的看法。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -17,17 +26,18 @@
       <pubDate>Sun, 04 Oct 2020 21:05:33 +0530</pubDate>
       
       <guid>https://sayary.github.io/about/</guid>
-      <description>Software engineer
-China -&amp;gt; New York -&amp;gt; LA
-蛋黄(Yolk)： 蛋白(Eggwhite)： Change Log  2020-10-05 使用 utteranc 作为评论系统 2020-10-05 增加Tags页面UI，增加word count 2020-10-01 确定使用主题 hugo-theme-console 2020-09-28 建站  </description>
+      <description>Software Engineer @LA
+Github: https://github.com/Sayary
+蛋黄(Yolk)： 蛋白(Eggwhite)： 如果你希望与我交换友链请留言告诉我 :P
+Change Log  2020-10-05 使用 utteranc 作为评论系统 2020-10-05 增加Tags页面UI，增加word count 2020-10-01 确定使用主题 hugo-theme-console 2020-09-28 建站  </description>
     </item>
     
     <item>
       <title>期权，理财投资以及RSS订阅</title>
-      <link>https://sayary.github.io/posts/2020-10-good-findings/</link>
+      <link>https://sayary.github.io/posts/2020-10-02-good-findings/</link>
       <pubDate>Fri, 02 Oct 2020 15:27:00 -0700</pubDate>
       
-      <guid>https://sayary.github.io/posts/2020-10-good-findings/</guid>
+      <guid>https://sayary.github.io/posts/2020-10-02-good-findings/</guid>
       <description>&lt;p&gt;最近在因为折腾博客，顺便看了几个比较有意思的博客:&lt;/p&gt;</description>
     </item>
     
@@ -42,6 +52,15 @@ China -&amp;gt; New York -&amp;gt; LA
 &lt;li&gt;Sell covered call&lt;/li&gt;
 &lt;li&gt;Sell cash-backed put&lt;/li&gt;
 &lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Manhattan Beach, Los Angeles</title>
+      <link>https://sayary.github.io/photos/manhattan-beach-2019-12-25/</link>
+      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sayary.github.io/photos/manhattan-beach-2019-12-25/</guid>
+      <description></description>
     </item>
     
     <item>
