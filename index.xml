@@ -63,6 +63,24 @@ China -&amp;gt; New York -&amp;gt; LA
     </item>
     
     <item>
+      <title>Scalability Fundamentals</title>
+      <link>https://sayary.github.io/posts/2015-01-16-scalability-fundamentals/</link>
+      <pubDate>Fri, 16 Jan 2015 12:14:34 -0700</pubDate>
+      
+      <guid>https://sayary.github.io/posts/2015-01-16-scalability-fundamentals/</guid>
+      <description>&lt;p&gt;这篇博客主要参考&lt;a href=&#34;http://www.hiredintech.com/app#scalability-fundamentals&#34;&gt;Scalability Fundamentals&lt;/a&gt;里的内容，其目的主要是对系统的可扩展性的一些基本概念的简单介绍，我们分为三部分介绍这个专题。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>System Design Process</title>
+      <link>https://sayary.github.io/posts/2015-01-15-system-design-process/</link>
+      <pubDate>Thu, 15 Jan 2015 12:14:34 -0700</pubDate>
+      
+      <guid>https://sayary.github.io/posts/2015-01-15-system-design-process/</guid>
+      <description>&lt;p&gt;这篇博客参考了&lt;a href=&#34;http://www.hiredintech.com/app#the-system-design-process&#34;&gt;HiredInTech&lt;/a&gt;中关于系统设计的讲解视频，简单介绍了在系统设计问题中我们应当如何寻找切入点。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>2016-5-15, New York</title>
       <link>https://sayary.github.io/photos/new-york-2016-5-15/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

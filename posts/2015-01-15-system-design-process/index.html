@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Eggwhite&amp;Yolk/posts/2015-01-15-system-design-process/</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="https://sayary.github.io/hugo-theme-console/css/terminal-0.7.1.min.css">
+    <link rel="stylesheet" href="https://sayary.github.io/hugo-theme-console/css/console.css">
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+       <meta property="og:title" content="System Design Process" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sayary.github.io/posts/2015-01-15-system-design-process/" /><meta property="article:published_time" content="2015-01-15T12:14:34-07:00" />
+
+
+
+<meta name="twitter:title" content="System Design Process"/>
+<meta name="twitter:description" content="这篇博客参考了HiredInTech中关于系统设计的讲解视频，简单介绍了在系统设计问题中我们应当如何寻找切入点。"/>
+
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="https://sayary.github.io/" class="no-style site-name">Eggwhite&amp;Yolk</a>:~# 
+              <a href='https://sayary.github.io/posts'>posts</a>/<a href='https://sayary.github.io/posts/2015-01-15-system-design-process'>2015-01-15-system-design-process</a>/</div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                <li><a href="https://sayary.github.io/posts/" typeof="ListItem">Posts/</a></li>
+                
+                <li><a href="https://sayary.github.io/tags/" typeof="ListItem">Tags/</a></li>
+                
+                <li><a href="https://sayary.github.io/photos/" typeof="ListItem">Photos/</a></li>
+                
+                <li><a href="https://sayary.github.io/about/" typeof="ListItem">About/</a></li>
+                
+                <li><a href="https://sayary.github.io/index.xml" typeof="ListItem">RSS/</a></li>
+                
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container animated zoomIn fast">
+        
+<h1>System Design Process</h1>
+
+Jan. 15, 2015 | Words: 1466
+
+<br/><br/>
+<p>这篇博客参考了<a href="http://www.hiredintech.com/app#the-system-design-process">HiredInTech</a>中关于系统设计的讲解视频，简单介绍了在系统设计问题中我们应当如何寻找切入点。</p>
+<p>简要的流程图如下所示，这里以tinyurl这个常见的题型为例：</p>
+<p>系统设计问题主要有一下几个步骤：</p>
+<h3 id="1-scope-the-problem">1. Scope the Problem</h3>
+<p>在遇到系统设计题时，跟我们做算法题一样，不要拿过来就开始写，要首先确保你真正理解了题目。与现实世界中的系统不同，我们面对的问题往往是模棱两可，不那么清晰呢，因此我们需要对问题做很多假设，要不断向面试官要feedback来确保对题目的理解。</p>
+<h4 id="11-use-case">1.1 Use Case</h4>
+<p>首先要注意的是当前系统的使用场景，这是一个什么样的系统，它的目标是实现怎样的功能？现实中的系统是复杂多变的，而在此我们应当抓大放小，get到系统的核心功能即可。</p>
+<h4 id="12-constraints">1.2 Constraints</h4>
+<p>与使用场景一同出现的就是限制条件了，我们知道一个系统不能太过理想化，应当通过假设对系统的负载，数据存储等各个方面进行估计，自圆其说即可，当然更好的是平时就follow目标公司的信息，这样在系统设计时能显得你更加专业。</p>
+<p>当我们勾勒出系统的大致情况的时候，就可以对系统进行设计了。</p>
+<h3 id="2-abstract-design">2. Abstract Design</h3>
+<p>在我们开始展开进入具体的技术细节之前，首先要对整个系统的架构进行把控，这也是架构师的主要工作了。同前面一样，我们首先要关注的是主要功能的实现，当前业界主流的做法就是对系统分层，无论是服务与数据的隔离，每一层内部的层层cache，都可以算作系统分层的一种。其中比较常规的就是对服务与数据进行分层。</p>
+<h4 id="21-application-service-layer">2.1 Application Service Layer</h4>
+<p>应用服务层主要的作用是用来处理接收到的requests，并且将运算后的response反馈出去。</p>
+<h4 id="22-data-storage-layer">2.2 Data Storage Layer</h4>
+<p>这一层就是数据存储层，无论是用关系型数据库还是非关系型数据库，目的都是数据的持久化以及更好的增删改数据。</p>
+<h3 id="3-understanding-the-bottleneck">3. Understanding The Bottleneck</h3>
+<p>在对系统做完分层架构之后，我们要根据前面给出的限制信息来分析整个系统的性能瓶颈在哪里。</p>
+<p>对于应用服务层来说，可能遇到的瓶颈是同时遇到大量的request请求的时候，如何handle住庞大的请求同时避免随之而来的优先级，延迟等问题，常见的策略也比较套路，如负载均衡等等。</p>
+<p>对于数据存储层来说，比较可能的瓶颈可能出现在插入、删除、查询三方面，我们应当根据应用的不同类型来判断是否有频繁的某种操作，然后利用建索引、哈希等方法将延迟降到最小。</p>
+<p>还有一种问题是如果系统崩溃了，我们有没有紧急的预案可以回滚，恢复到之前的稳定状态，也就是容灾性了。</p>
+<h3 id="4-scaling-your-abstract-desgin">4. Scaling Your Abstract Desgin</h3>
+<p>我们可以在性能瓶颈中看到，大部分问题的出现都是因为量变引起了质变，什么东西量上去了系统的稳定性就会变差。因此我们希望系统是可扩展的，为什么呢？</p>
+<ol>
+<li>对于规模比较大的公司来说，时间就是金钱，能用钱解决的问题就不是问题。如果系统服务down调每分钟的损失成千上万，我能够一分钟多加10家服务器就解决的的问题，这种反应速度是单纯的性能优化做不到的。</li>
+<li>性能优化是需要的，但是不是万能的。除非是架构出现严重问题，我们在性能优化的过程中总会发现当性能到达某个阶段一样会出现瓶颈，这时整个系统的可扩展性就至关重要了。</li>
+</ol>
+<p>接下来的几篇文章就会对可扩展性方面进行更加深入的总结。</p>
+<h3 id="5-drilling-down">5. Drilling Down</h3>
+<p>这其实不算单独的一点，而是在上面的各个部分之中，面试官也许都会针对某个具体的问题与你进行面试，从宏观到微观，这要求我们对不同的技术以及系统的方方面面都有所涉猎，平时多看看技术blog，熟悉一下各大公司的技术栈，以备不时之需。</p>
+<h3 id="6-summary">6. Summary</h3>
+<p>最后我们来总结一下系统设计中的主要步骤有哪些。</p>
+<p>A strong process is crucial to successfully solving system design questions. We broke it down into four steps:</p>
+<ol>
+<li><strong>Scope</strong> the problem: Don&rsquo;t make assumptions; Ask questions; Understand the constraints and use cases.</li>
+<li>Sketch up an <strong>abstract design</strong> that illustrates the basic components of the system and the relationships between them.</li>
+<li>Think about the <strong>bottlenecks</strong> these components face when the system scales.</li>
+<li>Address these bottlenecks by using the fundamentals principles of <strong>scalable system design</strong>.</li>
+</ol>
+<script src="https://utteranc.es/client.js"
+        repo="Sayary/Sayary.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+        
+
+    </div>
+  </body>
+</html>
